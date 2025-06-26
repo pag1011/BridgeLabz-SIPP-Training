@@ -19,9 +19,9 @@ class Student {
 			return "A"; 
 		} else if(marks >= 75) {
 			return "B"; 
-		} if(marks >= 60) {
+		} else if(marks >= 60) {
 			return "C"; 
-		} if(marks >= 40) {
+		} else (marks >= 40) {
 			return "D"; 
 		} else {
 			return "F"; 
